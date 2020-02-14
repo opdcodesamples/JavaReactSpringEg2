@@ -19,9 +19,9 @@ import reactor.core.publisher.Flux;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringReactExample2ApplicationTests {
+public class SpringReactWebFluxApplicationTests {
 	
-	Logger logger = LoggerFactory.getLogger(SpringReactExample2ApplicationTests.class);
+	Logger logger = LoggerFactory.getLogger(SpringReactWebFluxApplicationTests.class);
 	QuoteGeneratorService quoteGeneratorService = new QuoteGeneratorServiceImpl();
 	
 	//@Test
@@ -41,7 +41,6 @@ public class SpringReactExample2ApplicationTests {
 	
 	@Test
 	public void fetchQuoteStreamCountDown() throws Exception {
-		// create a publisher
 		logger.info("\n\n in fetchQuoteStreamCountDown .......");
 		Flux<Quote> quoteFlux = quoteGeneratorService.fetchQuotesStream(Duration.ofMillis(10L));
 		

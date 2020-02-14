@@ -1,4 +1,4 @@
-package com.osmand.spring.react.example.one.bootstrap;
+package com.osmand.spring.react.example.bootstrap;
 
 import java.util.ArrayList;
 import java.util.List;

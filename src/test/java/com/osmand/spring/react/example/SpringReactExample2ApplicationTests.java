@@ -1,4 +1,4 @@
-package com.osmand.spring.react.example.one;
+package com.osmand.spring.react.example;
 
 import java.time.Duration;
 import java.util.concurrent.CountDownLatch;
@@ -11,17 +11,17 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.osmand.spring.react.example.one.domain.Quote;
-import com.osmand.spring.react.example.one.services.QuoteGeneratorService;
-import com.osmand.spring.react.example.one.services.QuoteGeneratorServiceImpl;
+import com.osmand.spring.react.example.domain.Quote;
+import com.osmand.spring.react.example.service.QuoteGeneratorService;
+import com.osmand.spring.react.example.service.QuoteGeneratorServiceImpl;
 
 import reactor.core.publisher.Flux;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringReactExample1ApplicationTests {
+public class SpringReactExample2ApplicationTests {
 	
-	Logger logger = LoggerFactory.getLogger(SpringReactExample1ApplicationTests.class);
+	Logger logger = LoggerFactory.getLogger(SpringReactExample2ApplicationTests.class);
 	QuoteGeneratorService quoteGeneratorService = new QuoteGeneratorServiceImpl();
 	
 	//@Test

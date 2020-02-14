@@ -1,4 +1,4 @@
-package com.osmand.spring.react.example.one.domain;
+package com.osmand.spring.react.example.domain;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

@@ -1,4 +1,4 @@
-package com.osmand.spring.react.example.one.services;
+package com.osmand.spring.react.example.service;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
@@ -11,7 +11,7 @@ import java.util.function.BiFunction;
 
 import org.springframework.stereotype.Service;
 
-import com.osmand.spring.react.example.one.domain.Quote;
+import com.osmand.spring.react.example.domain.Quote;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.SynchronousSink;

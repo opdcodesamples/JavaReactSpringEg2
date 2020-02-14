@@ -1,8 +1,8 @@
-package com.osmand.spring.react.example.one.services;
+package com.osmand.spring.react.example.service;
 
 import java.time.Duration;
 
-import com.osmand.spring.react.example.one.domain.Quote;
+import com.osmand.spring.react.example.domain.Quote;
 
 import reactor.core.publisher.Flux;
 

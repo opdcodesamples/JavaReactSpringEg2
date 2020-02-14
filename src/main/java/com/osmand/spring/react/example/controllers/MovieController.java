@@ -1,12 +1,12 @@
-package com.osmand.spring.react.example.one.controllers;
+package com.osmand.spring.react.example.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.osmand.spring.react.example.one.domain.Quote;
-import com.osmand.spring.react.example.one.services.QuoteGeneratorService;
+import com.osmand.spring.react.example.domain.Quote;
+import com.osmand.spring.react.example.service.QuoteGeneratorService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

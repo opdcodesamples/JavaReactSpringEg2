@@ -26,6 +26,12 @@ test {
 	useJUnitPlatform()
 }
 
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.boot:spring-boot-dependencies:${version}"
+	}
+}
+
 dependencies {
 
 	compile('org.springframework.boot:spring-boot-starter-webflux')
